@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>384</width>
+    <height>693</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="nameLabel">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>51</y>
+      <width>24</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nimi</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nameLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>71</y>
+      <width>125</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Kirjoita nimesi kenttään</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>130</y>
+      <width>87</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="heightDoubleSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>62</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="weightDoubleSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>130</y>
+      <width>62</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dateLabel">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>110</y>
+      <width>68</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mittauspäivä</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heightLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>50</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pituus</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weightLabel">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>110</y>
+      <width>50</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Paino</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calculatePushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Laske</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="savePushButton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>270</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tallenna</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="sexComboBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>120</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Valitse sukupuoli</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="neckSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>50</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="waistSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>230</y>
+      <width>50</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="hipsSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>230</y>
+      <width>50</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sexLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>70</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sukupuoli</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="neckLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>210</y>
+      <width>70</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kaula</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="waistLabel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>210</y>
+      <width>70</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vyötärö</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hipsLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>210</y>
+      <width>70</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lantio</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="birthDateLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>50</y>
+      <width>90</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Syntymäpäivä</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="birthDateEdit">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>70</y>
+      <width>87</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bmiLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>80</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Painoindeksi</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>340</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>60</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>384</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
