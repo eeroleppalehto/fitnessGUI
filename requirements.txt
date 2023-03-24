@@ -1,0 +1,16 @@
+attrs==22.2.0
+click==7.1.2
+exceptiongroup==1.1.1
+iniconfig==2.0.0
+packaging==23.0
+pluggy==1.0.0
+PyQt6==6.1.0
+pyqt6-plugins==6.1.0.2.2
+PyQt6-Qt6==6.4.3
+PyQt6-sip==13.4.1
+pyqt6-tools==6.1.0.3.2
+pytest==7.2.2
+python-dotenv==1.0.0
+qt6-applications==6.1.0.2.2
+qt6-tools==6.1.0.1.2
+tomli==2.0.1
