@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>384</width>
+    <width>383</width>
     <height>693</height>
    </rect>
   </property>
@@ -46,6 +46,9 @@
     </property>
     <property name="toolTipDuration">
      <number>3</number>
+    </property>
+    <property name="placeholderText">
+     <string>Kirjoita nimesi</string>
     </property>
    </widget>
    <widget class="QDateEdit" name="dateEdit">
@@ -165,6 +168,9 @@
       <height>23</height>
      </rect>
     </property>
+    <property name="maximum">
+     <number>999</number>
+    </property>
    </widget>
    <widget class="QSpinBox" name="waistSpinBox">
     <property name="geometry">
@@ -175,6 +181,9 @@
       <height>23</height>
      </rect>
     </property>
+    <property name="maximum">
+     <number>999</number>
+    </property>
    </widget>
    <widget class="QSpinBox" name="hipsSpinBox">
     <property name="geometry">
@@ -184,6 +193,9 @@
       <width>50</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="maximum">
+     <number>999</number>
     </property>
    </widget>
    <widget class="QLabel" name="sexLabel">
@@ -261,7 +273,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="bmiLabel">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -287,17 +299,84 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="bmiLabel">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>370</y>
-      <width>60</width>
+      <y>360</y>
+      <width>110</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Painoindeksi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fatFiLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>430</y>
+      <width>170</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Rasvaprosentti(FI)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bmiLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>410</y>
+      <width>100</width>
       <height>14</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>Rasvaprosentti(FI)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fatUsLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>500</y>
+      <width>170</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Rasvaprosentti(US)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bmiLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>480</y>
+      <width>110</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rasvaprosentti(US)</string>
     </property>
    </widget>
   </widget>
@@ -306,8 +385,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>384</width>
-     <height>19</height>
+     <width>383</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
